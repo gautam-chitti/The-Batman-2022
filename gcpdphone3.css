@@ -1,0 +1,19 @@
+h1{
+    font-size: 30px;
+}
+img{
+    height: 120px;
+    width: 120px;
+}
+h2{
+    font-size: 20px;
+}
+.elements h3{
+    font-size: 0.8rem;
+    
+}
+.confi{
+    margin-left: 25px;
+    grid-template-columns:repeat(1, minmax(0, 1fr)) ;
+    grid-gap: 25px;
+}

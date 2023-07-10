@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    box-shadow:  inset 1px 1px 20px rgb(255, 0, 0);
+}
+h1{
+    font-size: 75px;
+    background: linear-gradient( 90deg, red,rgb(203, 2, 2),rgb(173, 2, 2),rgb(132, 2, 2),rgb(80, 1, 1),rgb(80, 1, 1),rgb(132, 2, 2),rgb(173, 2, 2),rgb(203, 2, 2),red);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: yo 4s linear infinite;
+}
+@keyframes yo {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+    
+}
+img{
+    height: 500px;
+    width: 400px;
+}
+.img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.punch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.punch h1{
+    font-size: 65px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+p{
+    color: red;
+    font-size: 40px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border: 2px solid red;
+   margin-top: 5px;
+   margin-bottom: 3px;
+}

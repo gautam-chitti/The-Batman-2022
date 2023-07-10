@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(85, 0, 255);
+    box-shadow:  inset 1px 1px 20px rgb(85, 0, 255);
+}
+h1{
+    font-size: 75px;
+    background: linear-gradient( 90deg, rgb(85, 0, 255),rgb(76, 2, 225),rgb(62, 0, 187),rgb(52, 0, 154),rgb(34, 0, 103),rgb(52, 0, 154),rgb(62, 0, 187),rgb(76, 2, 225),rgb(85, 0, 255));
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: yo 4s linear infinite;
+}
+@keyframes yo {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+    
+}
+img{
+    height: 500px;
+    width: 400px;
+}
+.img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.punch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.punch h1{
+    font-size: 65px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+p{
+    color: rgb(85, 0, 255);
+    font-size: 40px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(85, 0, 255);
+    border: 2px solid rgb(85, 0, 255)red;
+   margin-top: 5px;
+   margin-bottom: 3px;
+}

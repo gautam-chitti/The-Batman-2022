@@ -1,0 +1,16 @@
+h1{
+    font-size: 33px;
+}
+.punch h1{
+    font-size: 28px;
+}
+p{
+    font-size: 15px;
+}
+.center{
+    font-size: 5px;
+}
+img{
+    height: 300px;
+    width: 240px;
+}
